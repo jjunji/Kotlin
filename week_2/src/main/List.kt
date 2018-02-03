@@ -1,5 +1,7 @@
 package main
 
+import kotlin.test.todo
+
 sealed class List<out T> {
     object Nil : List<Nothing>()
     data class Cons<T>(val head: T, val tail: List<T>) : List<T>()
@@ -31,5 +33,7 @@ sealed class List<out T> {
         tailrec fun <T> filter(list: List<T>, f: (T) -> Boolean, acc: List<T> = Nil): List<T> = TODO()
 
         tailrec fun <T, R> map(list: List<T>, f: (T) -> R, acc: List<R> = Nil): List<R> = TODO()
+
+        //tailrec fun <T, R> List<T>.map(f:(T) -> R)
     }
 }
