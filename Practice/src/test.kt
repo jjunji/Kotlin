@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     println(youngChamp)
 }
 
@@ -18,4 +18,4 @@ val list = listOf(
 
 val youngChamp = list.filter { it.position == Position.MID }.minBy { it.age }
 
-val midList = list.groupBy {  }
+val midList = list.groupBy {  }*/
